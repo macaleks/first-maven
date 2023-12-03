@@ -99,4 +99,9 @@
             <url>http://localhost:8081/nexus/content/repositories/releases/</url>
         </repository>
     </distributionManagement>
+
+    <scm>
+        <connection>scm:git:git@github.com:macaleks/first-maven.git</connection>
+        <developerConnection>scm:git:git@github.com:macaleks/first-maven.git</developerConnection>
+    </scm>
 </project>
